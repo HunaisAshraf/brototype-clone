@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "Work sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* navbar */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 -50px 5px 30px #000000;
+}
+
+.hire {
+  text-align: center;
+  padding: 5px 0;
+  font-weight: 600;
+  background-color: #d75246;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 15px;
+}
+.logo {
+  height: 35px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+.list li {
+  list-style: none;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.about-btn {
+  padding: 10px 20px;
+  background-color: #c51605;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+}
+
+/* landing */
+
+.landing {
+  background-image: url("images/nikhil-sir-removebg-preview.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  /* padding: 150px 60px 0 500px; */
+}
+
+.landing-content {
+  position: relative;
+  top: 150px;
+  padding: 0 130px 0 550px;
+}
+
+.landing h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: "Work sans";
+}
+
+.form {
+  margin-top: 60px;
+}
+
+.radios {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.radio {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 0 20px 40px;
+  width: 400px;
+  text-align: left;
+  padding: 14px 15px;
+  border-radius: 40px;
+  font-size: 16px;
+}
+
+.radio input[type="radio"]:checked {
+  background: #c51605;
+}
+
+.landing-btn {
+  width: 530px;
+  margin-top: 10px;
+  padding: 15px 20px;
+  background-color: #c51605;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* success */
+
+.success {
+  padding-bottom: 100px;
+}
+
+.success-tag {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 20px 200px;
+  line-height: 1.3;
+  border-bottom: 1px solid #232323;
+  padding-bottom: 20px;
+}
+
+.success-tag span {
+  color: #c51605;
+  font-weight: 600;
+}
+
+.testmonial-head {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+.first-head {
+  position: relative;
+  top: 35px;
+  color: #c51605;
+}
+
+.testmonial-videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testmonial {
+  width: 280px;
+  margin: 10px;
+}
+
+.testmonial-videos video {
+  width: 270px;
+  border-radius: 10px;
+}
+.testmonial p {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+.two {
+  position: relative;
+  bottom: 80px;
+}
+
+.three {
+  position: relative;
+  bottom: 10px;
+}
+.four {
+  position: relative;
+  bottom: 40px;
+}
+.five {
+  position: relative;
+  top: 20px;
+}
+
+.testmonial-button {
+  text-align: center;
+}
+.testmonial-btn {
+  background-color: #000000;
+  border: 1px solid #c51605;
+  color: #c51605;
+  font-size: 1.5rem;
+  padding: 15px 40px;
+}
+
+/* about */
+
+.brototype {
+  background-color: #ffffff;
+  padding: 60px 10px;
+  color: #000000;
+}
+.brototype span {
+  color: #c51605;
+}
+
+.broto-head {
+  color: #000000;
+  font-size: 4rem;
+  padding: 0 170px;
+  text-align: center;
+}
+iframe {
+  height: 700px;
+  width: 1500px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.brototype h2 {
+  color: #000000;
+  font-size: 3rem;
+  padding: 0 400px;
+}
+.offers {
+  display: flex;
+  gap: 30px;
+  padding: 50px 180px;
+}
+
+.offer {
+  color: #000000;
+  font-size: 1.7rem;
+  display: flex;
+}
+
+.offer span {
+  font-weight: 600;
+  color: #000000;
+}
+
+.offer img {
+  height: 30px;
+}
+
+.offer-btn {
+  text-align: center;
+}
+
+.offer-btn button {
+  background-color: #c51605;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  width: 400px;
+  height: 60px;
+}
+
+.brocamp {
+  padding: 60px 10px;
+  color: #ffffff;
+}
+
+.brocamp-heading {
+  margin: 30px 25%;
+  text-align: center;
+}
+
+.brocamp-heading h1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.brocamp-heading p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  line-height: 1.3;
+}
+.brocamp-heading span {
+  color: #c51605;
+  font-weight: 600;
+}
+
+/* placements */
+.placement {
+  padding: 20px 170px;
+  border-bottom: 1px solid #232323;
+}
+.placements {
+  display: flex;
+}
+.placement-details {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.placements-stats {
+  display: flex;
+}
+.avg-sal {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.placements-stats h1 {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.backgrounds {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.program {
+  width: 70%;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-left: 20px;
+}
+.program span {
+  color: #c51605;
+}
+
+.placement-btn {
+  text-align: center;
+}
+
+.placement-btn button {
+  background-color: #c51605;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  width: 400px;
+  height: 60px;
+  margin-top: 70px;
+}
+
+/* aluminies */
+
+.aluminie-tag {
+  padding: 10px 200px;
+  text-align: center;
+}
+.aluminie-tag h4 {
+  font-size: 4rem;
+}
+.aluminie-tag span {
+  color: #c51605;
+}
+
+.aluminie-heading {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+.sec-word::first-letter {
+  color: #c51605;
+}
+
+.first-word {
+  position: relative;
+  top: 40px;
+}
+.aluminie-details{
+  display: flex;
+  flex-wrap: wrap;
+}
+.alumini img{
+  width: 270px;
+  border-radius: 8px;
+}
+.alumini{
+  margin: 20px 15px;
+}
+
+.more-btn{
+  text-align: center;
+  margin: 80px 0;
+}
+.more-btn button{
+  background-color: #000000;
+  border: 1px solid #c51605;
+  color: #c51605;
+  font-size: 1.5rem;
+  padding: 15px 40px;
+}
+
+/* contact */
+
+.contact{
+  margin: 40px 200px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 0 100px;
+}
+.contact h1{
+  font-size: 3.2rem;
+}
+
+.form{
+  text-align: left;
+  padding: 20px 100px;
+}
+
+.form-fields{
+  display: flex;
+  gap: 30px;
+}
+.input-field input{
+  display: block;
+
+}
