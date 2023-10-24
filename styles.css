@@ -372,23 +372,23 @@ iframe {
   position: relative;
   top: 40px;
 }
-.aluminie-details{
+.aluminie-details {
   display: flex;
   flex-wrap: wrap;
 }
-.alumini img{
+.alumini img {
   width: 270px;
   border-radius: 8px;
 }
-.alumini{
+.alumini {
   margin: 20px 15px;
 }
 
-.more-btn{
+.more-btn {
   text-align: center;
   margin: 80px 0;
 }
-.more-btn button{
+.more-btn button {
   background-color: #000000;
   border: 1px solid #c51605;
   color: #c51605;
@@ -396,29 +396,213 @@ iframe {
   padding: 15px 40px;
 }
 
-/* contact */
+/* register */
 
-.contact{
+.register {
   margin: 40px 200px;
   background-color: #ffffff;
   color: #000000;
   text-align: center;
-  padding: 0 100px;
+  padding: 60px 100px 20px 100px;
 }
-.contact h1{
+.register h1 {
   font-size: 3.2rem;
 }
+.register span {
+  color: #c51605;
+}
 
-.form{
+.register-form {
   text-align: left;
   padding: 20px 100px;
 }
 
-.form-fields{
+.register-form p {
+  font-size: 1.6rem;
+}
+
+.form-fields {
   display: flex;
   gap: 30px;
 }
-.input-field input{
-  display: block;
 
+.input-field {
+  margin: 20px 0;
+}
+
+.input-field input,
+select {
+  display: block;
+  width: 350px;
+  height: 30px;
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 1.2rem;
+  outline: none;
+}
+.input-field select {
+  height: 48px;
+  width: 368px;
+}
+.form-btn {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.form-btn button {
+  background-color: #d11807;
+  color: #ffffff;
+  width: 368px;
+  height: 48px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.form-btn a {
+  color: #c51605;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  background-color: #da1806;
+  color: #ffffff;
+}
+
+/* interviews */
+
+.interview-tag {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 60px 250px 30px 250px;
+}
+.interview-tag span {
+  color: #c51605;
+}
+
+.interviews {
+  padding: 0 10px;
+}
+
+.interview-videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.video {
+  width: 490px;
+  margin: 10px 0;
+}
+.video iframe {
+  margin: 0;
+  width: 470px;
+  height: 250px;
+  border-radius: 10px;
+}
+.video p{
+  font-size: 1.4rem;
+}
+
+
+/* contact */
+
+.contact-ceo{
+  padding: 50px 380px;
+  text-align: center;
+  border-bottom: 1px solid #232323;
+}
+.contact-ceo h1{
+  font-size: 3rem;
+}
+.contact-ceo span{
+  color: #c51605;
+}
+.ceo{
+  display: flex;
+  margin: 40px 0;
+  gap: 30px;
+  text-align: left;
+}
+.ceo p {
+  line-height: 1.4;
+}
+.ceo img{
+  height: 200px;
+}
+
+.ceo article{
+  margin-bottom: 30px;
+}
+
+.contact-info{
+  padding: 100px 200px;
+}
+
+.contact-info h1{
+  padding:40px 0;
+}
+
+.addresses{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.address{
+  width: 330px;
+}
+
+.queries{
+  display: flex; 
+  justify-content: space-between;
+}
+.query{
+  border: 1px solid #ffffff;
+  margin-top: 50px;
+  padding: 20px;
+  width: 500px;
+  line-height: 2;
+}
+
+.query-number{
+  display: flex;
+}
+.query-number span{
+  margin-right: 60px;
+}
+.email{
+  margin-right: 80px;
+  color: #6e6e6e;
+}
+.phone{
+  margin-right: 62px;
+  color: #6e6e6e;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1b1b;
+  padding: 20px 65px;
+  line-height: 1.5; 
+  
+}
+.footer a{
+  color: #c51605;
+}
+.policy, .socials, .company{
+  display: flex;
+  flex-direction: column;
+}
+
+.company img{
+  width: 160px;
+}
+.company p{
+  font-size: 12px;
 }
